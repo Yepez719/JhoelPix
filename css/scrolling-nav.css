@@ -196,3 +196,13 @@ p.lead, h1, h2, ul, li {
      /* just because it's stronger than nth-child */
      opacity: 1;
  }
+
+.img-thumbnail {
+     filter: grayscale(100%);
+     transition: 0.5s;
+
+}
+
+.img-thumbnail:hover {
+     filter:grayscale(0);
+}
